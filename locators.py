@@ -65,8 +65,7 @@ class TestLocators:
     header_of_page_constructor = By.XPATH, '//p[text() = "Конструктор"]'
 
     # Селектор, помечающий выбранный раздел конструктора как активный
-    selected_button = By.XPATH, ('//div[@class = '
-                                 '"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect"]')
+    selected_button = By.XPATH, '//div[@class="tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect"]'
 
     # Заголовок раздела "Булки" в меню конструктора
     buns_block = By.XPATH, '//span[text() = "Булки"]'
